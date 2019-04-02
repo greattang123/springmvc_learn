@@ -1,0 +1,43 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+###
+GET http://localhost:8080/api/mvc_learn/example1/login
+
+###
+GET http://localhost:8080/api/mvc_learn/example1/addresses
+
+###
+POST http://localhost:8080/api/mvc_learn/example1/addresses
+Content-Type: application/json
+
+{
+"detail":"101",
+"comment":"welcome"
+}
+
+###
+GET http://localhost:8080/api/mvc_learn/example1/news/2
+
+###
+GET http://localhost:8080/api/mvc_learn/example1/repos/greattang123/sprintboot_experiment_04
+
+###
+GET http://localhost:8080/api/mvc_learn/example1/addresses/3
+
+###
+PATCH  http://localhost:8080/api/mvc_learn/example1/addresses
+Content-Type: application/json
+
+{
+  "detail":"101",
+  "comment":"welcome",
+  "user": {
+    "id": "3"
+  }
+}
+
+###
