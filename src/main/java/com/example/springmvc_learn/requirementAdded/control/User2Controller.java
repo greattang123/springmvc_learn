@@ -43,4 +43,6 @@ public class User2Controller {
                 u.getId() == uid).findFirst().orElse(null);
         return Optional.ofNullable(user2).map(u -> Map.of("user", u)).orElse(Map.of());
     }
+
+    public void display(){}
 }
