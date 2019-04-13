@@ -41,3 +41,20 @@ Content-Type: application/json
 }
 
 ###
+GET http://localhost:8080/api/users
+
+###
+GET http://localhost:8080/api/users/2
+
+###
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "id": 4,
+  "name": "Google",
+  "password":"Facebook",
+  "address":"America"
+}
+
+###

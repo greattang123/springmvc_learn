@@ -1,0 +1,27 @@
+###检验失败异常
+POST http://localhost:8080/api/example3/users
+Content-Type: application/json
+
+{
+    "name": "G",
+    "age": 10,
+    "email": "sad"
+}
+
+###请求地址参数类型转换异常
+GET http://localhost:8080/api/example3/users/a/file
+
+###json 类型转换异常
+POST http://localhost:8080/api/example3/users
+Content-Type: application/json
+
+{
+  "name": 111,
+  "age": "age",
+  "email": "sad"
+}
+
+###请求地址参数校验
+GET http://localhost:8080/api/example3/users/a
+
+###
