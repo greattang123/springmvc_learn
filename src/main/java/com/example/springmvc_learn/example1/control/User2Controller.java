@@ -1,6 +1,6 @@
-package com.example.springmvc_learn.requirementAdded.control;
+package com.example.springmvc_learn.example1.control;
 
-import com.example.springmvc_learn.requirementAdded.entity.User2;
+import com.example.springmvc_learn.example1.entity.User2;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 

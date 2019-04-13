@@ -1,4 +1,4 @@
-package com.example.springmvc_learn.requirementAdded.entity;
+package com.example.springmvc_learn.example1.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
