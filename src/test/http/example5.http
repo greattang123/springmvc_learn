@@ -1,0 +1,17 @@
+### 无token，请求被拦截
+GET http://localhost:8080/api/example5/index
+
+###
+POST http://localhost:8080/api/example5/login
+Content-Type: application/json
+
+{
+  "name": "GT"
+}
+
+### 在header中，带响应返回的token，发送请求，确定身份
+GET http://localhost:8080/api/example5/index
+Authorization
+:9fc22948503d50a1e9672ca6d366aa961ec9e40ce0af28efd0ee10da938d48962dda35d1245e683dfac72fea7b73d3c8
+
+###
