@@ -2,7 +2,7 @@ SpringMVC Learn
 ---------------
 ### Update 2019.04.14
 Lecture：encoder；interceptor;
-###salt
+### salt
 salt必须是十六进制数，而且位数必须为偶数
 
 ### Update 2019.04.13
