@@ -1,13 +1,14 @@
 package com.example.springmvc_learn.example5.interceptor.component;
 
 import com.example.springmvc_learn.example5.interceptor.exception.UnauthorizedException;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.crypto.encrypt.Encryptors;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;
-
+@Slf4j
 @Component
 public class EncryptorComponent5 {
     @Value("${my.secret_key}")
@@ -21,6 +22,7 @@ public class EncryptorComponent5 {
         String json = omc.writeValueAsString(payload);
         /* Encryptors.text(secretKey, salt)，基于指定密钥和盐值创建文本加密器,
             encrypt()加密，decrypt()解密*/
+        log.debug(json);
         return Encryptors.text(secretKey, salt).encrypt(json);
     }
     // 解密

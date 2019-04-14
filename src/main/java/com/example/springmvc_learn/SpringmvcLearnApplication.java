@@ -3,11 +3,13 @@ package com.example.springmvc_learn;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.validation.beanvalidation.MethodValidationPostProcessor;
 
 @SpringBootApplication
+@EnableScheduling  //启动定时服务，Springboot默认不启动
 public class SpringmvcLearnApplication {
 
     public static void main(String[] args) {
