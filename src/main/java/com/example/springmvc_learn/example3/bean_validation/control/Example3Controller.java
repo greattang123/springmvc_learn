@@ -20,6 +20,10 @@ public class Example3Controller {
     public void getTypeMismatchException(@PathVariable int uid){
 
     }
+    @GetMapping("/users/{userName}")
+    public void getTypeMismatchException(@PathVariable String userName){
+
+    }
     @GetMapping("/users/{owner}")
     public void getViolationException(
             @Size(min=2,max=6,message = "用户信息错误")

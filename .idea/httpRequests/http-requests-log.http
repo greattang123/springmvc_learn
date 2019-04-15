@@ -1,0 +1,245 @@
+GET http://localhost:8080/api/example3/users/a/file
+
+<> 2019-04-15T100322.400.json
+
+###
+
+GET http://localhost:8080/api/example3/users/GT
+
+<> 2019-04-15T100255.500.json
+
+###
+
+GET http://localhost:8080/api/example3/users/123
+
+<> 2019-04-15T100244.500.json
+
+###
+
+GET http://localhost:8080/api/example3/users/a/file
+
+###
+
+POST http://localhost:8080/api/example3/users
+Content-Type: application/json
+
+{
+    "name": "G",
+    "password": "1234",
+    "age": 10,
+    "email": "sad"
+}
+
+<> 2019-04-15T095706.400.json
+
+###
+
+GET http://localhost:8080/api/example5/index
+Authorization: 9fc22948503d50a1e9672ca6d366aa961ec9e40ce0af28efd0ee10da938d48962dda35d1245e683dfac72fea7b73d3c8
+
+<> 2019-04-14T083110.200.json
+
+###
+
+POST http://localhost:8080/api/example5/login
+Content-Type: application/json
+
+{
+  "name": "GT"
+}
+
+###
+
+POST http://localhost:8080/api/example5/login
+Content-Type: application/json
+
+{
+  "name": "T"
+}
+
+<> 2019-04-14T083053.401.json
+
+###
+
+GET http://localhost:8080/api/example5/index
+
+<> 2019-04-14T083038.401.json
+
+###
+
+POST http://localhost:8080/api/example3/users
+Content-Type: application/json
+
+{
+    "name": "G",
+    "age": 10,
+    "email": "sad"
+}
+
+<> 2019-04-14T080126.400.json
+
+###
+
+POST http://localhost:8080/api/example4/login
+Content-Type: application/json
+
+{
+  "name": "GT",
+  "password": "190515"
+}
+
+###
+
+POST http://localhost:8080/api/example4/register
+Content-Type: application/json
+
+{
+  "name": "GT",
+  "password": "190514"
+}
+
+###
+
+GET http://localhost:8080/api/example5/index
+Authorization: 9fc22948503d50a1e9672ca6d366aa961ec9e40ce0af28efd0ee10da938d48962dda35d1245e683dfac72fea7b73d3c8
+
+<> 2019-04-14T074115.200.json
+
+###
+
+POST http://localhost:8080/api/example5/login
+Content-Type: application/json
+
+{
+  "name": "GT"
+}
+
+###
+
+GET http://localhost:8080/api/example5/index
+
+<> 2019-04-14T074021.401.json
+
+###
+
+GET http://localhost:8080/api/example5/index
+Authorization: b3299a48c67bb420977d00a1d53501287d9d5217784a901772e9a78cf8eecc84e5f152b03ec55e1796433706a83b693c
+
+<> 2019-04-14T073750.200.json
+
+###
+
+POST http://localhost:8080/api/example5/login
+Content-Type: application/json
+
+{
+  "name": "GT"
+}
+
+###
+
+GET http://localhost:8080/api/example5/index
+
+<> 2019-04-14T073701.401.json
+
+###
+
+POST http://localhost:8080/api/example05/login
+Content-Type: application/json
+
+{
+  "userName": "BO"
+}
+
+<> 2019-04-14T072954.404.json
+
+###
+
+GET http://localhost:8080/api/example5/index
+
+<> 2019-04-14T072942.200.json
+
+###
+
+POST http://localhost:8080/api/example4/login
+Content-Type: application/json
+
+{
+  "name": "GT",
+  "password": "190514"
+}
+
+###
+
+POST http://localhost:8080/api/example4/login
+Content-Type: application/json
+
+{
+  "name": "GT",
+  "password": "190515"
+}
+
+###
+
+POST http://localhost:8080/api/example4/register
+Content-Type: application/json
+
+{
+  "name": "GT",
+  "password": "190514"
+}
+
+###
+
+POST http://localhost:8080/api/example4/login
+Content-Type: application/json
+
+{
+  "name": "GT",
+  "password": "190514"
+}
+
+###
+
+POST http://localhost:8080/api/example4/login
+Content-Type: application/json
+
+{
+  "name": "GT",
+  "password": "12345"
+}
+
+###
+
+POST http://localhost:8080/api/example4/login
+Content-Type: application/json
+
+{
+  "name": "Sun",
+  "password": "12345"
+}
+
+###
+
+POST http://localhost:8080/api/example04/login
+Content-Type: application/json
+
+{
+  "name": "Sun",
+  "password": "12345"
+}
+
+<> 2019-04-14T065057.404.json
+
+###
+
+POST http://localhost:8080/api/example4/register
+Content-Type: application/json
+
+{
+  "name": "GT",
+  "password": "190514"
+}
+
+###
+

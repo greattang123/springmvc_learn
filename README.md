@@ -1,5 +1,8 @@
 SpringMVC Learn
 ---------------
+### Update 2019.04.15
+Add experiment6 with User3 with password
+
 ### Update 2019.04.14
 Lecture：encoder；interceptor;
 ### salt

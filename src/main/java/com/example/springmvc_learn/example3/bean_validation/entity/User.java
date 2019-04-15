@@ -17,6 +17,8 @@ public class User {
     @Size(min=2,max=6,
     message = "您输入的值为${validatedValue},用户名长度必须大于{min}，小于{max}")
     private  String name;
+    @Size(min=6,message = "密码至少是六位")
+    private String password;
     @Min(value = 18,
     message = "您输入的值为${validatedValue},年龄不能小于{min}")
     @Max(value = 60,
